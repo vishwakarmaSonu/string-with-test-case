@@ -1,0 +1,12 @@
+int main() {
+    std::cout << "Hello World!\n";
+    
+    int t;
+        cin>>t;
+    cin.ignore();
+    while(t--){   
+    string s;
+    getline(cin,s);
+    cout<<s<<endl;
+    }
+}
